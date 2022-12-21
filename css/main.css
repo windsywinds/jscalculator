@@ -1,0 +1,43 @@
+
+.calculator {
+    
+    line-height: 1.5;
+    background-color: rgb(157, 157, 157);
+    border: 2px solid rgba(94, 97, 204, 0.819);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    max-width: 12rem;
+}
+
+.close-button {
+    float:  right;
+    padding-right: 0.2rem;
+    padding-top: 0.1rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.buttons {
+    padding: 1rem;
+    display: flex;   
+    flex-direction: row;
+}
+
+.output {
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;;
+}
+
+p {
+    text-align: center;
+}
+
+.reload {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
